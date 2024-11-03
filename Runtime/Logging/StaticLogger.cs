@@ -26,8 +26,8 @@ namespace RealityCollective.Utilities.Logging
         #endregion Events
 
         #region Private Properties
-        private static StringBuilder sb = new();
-        private static StringBuilder lf = new();
+        private static StringBuilder sb = new StringBuilder();
+        private static StringBuilder lf = new StringBuilder();
         private static int logIndex = 0;
         private static FilterLogType currentLogFilter = FilterLogType.All;
         private static bool pauseLog = false;
